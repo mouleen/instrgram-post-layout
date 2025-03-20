@@ -9,28 +9,13 @@ body{
     flex-direction: column;
 }
 
-img{
-    max-width: 100%;
-}
+/* -- Header -- */ 
+
 .header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 10px;
-}
-/* Icono del Header */
-.header span > i {
-    font-size: 42px;
-    margin: 10px 1px 1px 10px;
-}
-/* Titulo del Header */
-.header .title-icon div > h1 {
-    font-size: 15px;
-}
-.header .menu i{
-    width: 100%;
-    float: right;
-    font-size: 38px;
 }
 .header .title-icon {
     display: flex;
@@ -46,11 +31,32 @@ img{
     margin-block-end: 1em;
 }
 
+/* Titulo del Header */
 .header .title-icon div > h1 {
+    font-size: 15px;
     margin-block-end: 0.1em;
 }
 
- /* Footer */ 
+/* Menu del Header */
+.header .menu i{
+    width: 100%;
+    float: right;
+    font-size: 38px;
+}
+
+/* Icono del Header */
+.header span > i {
+    font-size: 42px;
+    margin: 10px 1px 1px 10px;
+}
+
+/*  -- Imagen --  */
+
+.profile img{
+    max-width: 100%;
+}
+
+/* -- Footer --  */
 
 .footer{
     display: flex;
@@ -68,6 +74,7 @@ img{
 }
 .footer .nav-icons .icons-left {
     display:flex;
+    margin-left: 5px;
 }
 .footer .nav-icons .icons-left i {
     font-size: 36px;
@@ -75,6 +82,7 @@ img{
 }
 .footer .nav-icons .icons-right{
     display:flex;
+    margin-right: 5px;
 }
 .footer .nav-icons .icons-right i{
     font-size: 36px;
