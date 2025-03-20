@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+}
+.main{
+    margin: 10% auto;
+    background-color: white;
+    display: flex;
+    width:550px;
+    flex-direction: column;
+}
+
+img{
+    max-width: 100%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+/* Icono del Header */
+.header span > i {
+    font-size: 42px;
+    margin: 10px 1px 1px 10px;
+}
+/* Titulo del Header */
+.header .title-icon div > h1 {
+    font-size: 15px;
+}
+.header .menu i{
+    width: 100%;
+    float: right;
+    font-size: 38px;
+}
+.header .title-icon {
+    display: flex;
+}
+
+.header .title-icon div{
+    display: block;
+    margin: 0 15px;
+}
+
+.header .title-icon div > p {
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+}
+
+.header .title-icon div > h1 {
+    margin-block-end: 0.1em;
+}
+
+ /* Footer */ 
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    padding-top: 5px;
+}
+.footer .nav-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.footer .nav-icons .icons-left {
+    display:flex;
+}
+.footer .nav-icons .icons-left i {
+    font-size: 36px;
+    margin: 0px 4px 0px 4px;
+}
+.footer .nav-icons .icons-right{
+    display:flex;
+}
+.footer .nav-icons .icons-right i{
+    font-size: 36px;
+    margin: 0px 4px 0px 4px;
+}
+.footer .content{
+    padding: 10px;
+}
+.footer .content p{
+    /* something */
+}
